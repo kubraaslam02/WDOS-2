@@ -478,17 +478,17 @@ body {
 .about-image {
     position: relative;
     text-align: center;
-    color: #DAD7CD;
+    color: white;
     font-size: 90px;
     text-shadow: 0 0 10px #132A13;
 }
 
-.about-image h2 {
-    margin-top: -330px;
+.about-image h1 {
+    margin-top: -400px;
 }
 
-.about-image h2 span {
-    font-size: 205px ;
+.about-image h1 span {
+    font-size: 300px ;
     font-style: italic;
 }
 
@@ -621,12 +621,12 @@ body {
         font-size: 30px;
     }
     
-    .about-image h2 {
-        margin-top: -100px;
+    .about-image h1 {
+        margin-top: -200px;
     }
     
-    .about-image h2 span {
-        font-size: 70px ;
+    .about-image h1 span {
+        font-size: 150px ;
     }
     
     .about-intro {
