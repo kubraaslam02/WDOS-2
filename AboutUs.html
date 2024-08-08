@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocies Supermarket</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="Styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="logo" src="./images/logo.png" alt="Logo">
+        </a>
+        <!--navigation menu -->
+        <div class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="AboutUs.html" class="active">About Us</a></li>
+                <!--drop-down menu -->
+                <li class="dropdown">
+                    <a href="Products.html" class="dropbutton">Products</a>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a href="DairyProducts.html">Dairy Products</a></li>
+                            <li><a href="Vegetables.html">Vegetables</a></li>
+                            <li><a href="Cosmetics.html">Cosmetics and Skincare</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <!--icons in the navbar -->
+            <div class="icons-container">
+                <a href="loyalty.html" class="icon">
+                    <img src="images/loyalty-icon.png" alt="">
+                </a>
+                <a href="cart.html" class="icon">
+                    <img src="images/shopping-cart-icon.png" alt="">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="about-image">
+            <img src="images/about-header.jpg" alt="products-image">
+            <h2><span>A</span>BOUT <span>U</span>S</h2>
+        </div>
+        <div class="about-intro"><!--introduction about the supermarket-->
+            <p>At Grocies Supermarket, we're passionate about providing our communities with fresh, high-quality groceries at affordable prices. We believe in creating a welcoming shopping experience where you can find everything you need for a delicious and healthy lifestyle.</p>
+        </div>
+
+        <section id="branches">
+            <div class="about-grid">
+                <div class="line"></div> <!--a line for styling -->
+                <div class="text">Our <span class="fonta">Branches</span></div>
+                <div class="line"></div>
+            </div>
+            <div class="branch-row">
+                <div class="branch">
+                    <img src="images/store (1).jpeg" alt="Branch 1">
+                    <h2>Grocies Supermarket Colombo</h2>
+                    <!--description about the branch-->
+                    <p>Grocies Supermarket, located in the heart of Colombo, Sri Lanka, offers a wide range of high-quality products, including fresh produce, imported cosmetics, and dairy products. Known for its excellent customer service and convenient shopping experience, it is a trusted name in the community.</p>
+                    <!--map of the branch-->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15844.041165772947!2d79.8544885!3d6.8893699!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25bdd1e6ff1cf%3A0x5af0daa2d124161c!2sKeells%20-%20Marine%20Drive!5e0!3m2!1sen!2slk!4v1715867645504!5m2!1sen!2slk" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="branch">
+                    <img src="images/store (2).jpeg" alt="Branch 2">
+                    <h2>Grocies Supermarket Galle</h2>
+                    <p>Grocies Supermarket in Galle is a modern retail store offering a wide range of high-quality products to meet the diverse needs of the local community. It offers a variety of fresh produce, dairy, skincare, and cosmetics items. Known for its friendly staff and clean, organized layout, it provides a convenient shopping experience for the local community.</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.7050661195044!2d80.20836827474893!3d6.035151693950423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae173bd75e5702f%3A0x10d2df134341d33d!2sKeells%20-%20Galle!5e0!3m2!1sen!2slk!4v1715869729340!5m2!1sen!2slk" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="branch">
+                    <img src="images/store (3).jpeg" alt="Branch 2">
+                    <h2>Grocies Supermarket Kandy</h2>
+                    <p>Grocies Supermarket in Kandy offers a wide selection of fresh produce, dairy items, and beauty products. Renowned for its friendly service and well-organized layout, Grocies Supermarket ensures a convenient and pleasant shopping experience for all your grocery needs in Kandy.</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15830.662629092285!2d80.6190105!3d7.2788309!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3689703a15e77%3A0x9299a96b0c5f7707!2sKeells%20-%20Kandy02!5e0!3m2!1sen!2slk!4v1715868552859!5m2!1sen!2slk" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+        <div class="about-grid">
+            <div class="line"></div>
+            <div class="text"><span class="fonta">Services</span> we Offer</div>
+            <div class="line"></div>
+        </div>
+        <!--table about the services the supermarket offers-->
+        <section id ="services">
+            <table>
+                <thead>
+                    <tr>
+                        <td>Service</td>
+                        <td>Description</td>
+                        <td>Availability</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Delivery</td>
+                        <td>Get your groceries delivered straight to your doorstep. Order online and choose a convenient delivery slot.</td>
+                        <td>Varies by location, minimum order may apply.</td>
+                    </tr>
+                    <tr>
+                        <td>Catering</td>
+                        <td>Impress your guests with delicious catering platters! We offer a variety of options for all occasions, from office lunches to birthday parties.</td>
+                        <td>Order in advance. Contact your local branch for details.</td>
+                    </tr>
+                    <tr>
+                        <td>Party Planning</td>
+                        <td>Let us take the stress out of party planning! We can help you create a customized menu and provide party supplies.</td>
+                        <td>Contact your local branch for details.</td>
+                    </tr>
+                    <tr>
+                        <td>In-Store Services</td>
+                        <td>Enjoy additional conveniences like a pharmacy, fresh sushi counter, or hot food bar (availability varies by location).</td>
+                        <td>See individual branch listings for details.</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3"><span>Looking for a specific service?</span> Contact your nearest branch for more information. We're always happy to help!</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    </main>
+
+    <footer class="custom-footer">
+        <div class="footer-social">
+            <!--social icons linked to the top of the page-->
+            <a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="images/instagram-icon.png" alt="Instagram"></a>
+        </div>
+
+        <div class="footer-contact">
+          <p>Phone: +1234567890</p>
+          <p>Email: info@grociessupermarket.com</p>
+        </div>
+        <div class="footer-copyright">
+          <p>&copy; 2024 Grocies Supermarket. All rights reserved.</p>
+        </div>
+        <!--images from: https://www.freepik.com/, https://leonardo.ai/-->
+    </footer>
+</body>
+</html>

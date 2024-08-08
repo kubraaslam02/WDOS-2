@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocies Supermarket</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="Styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="logo" src="./images/logo.png" alt="Logo">
+        </a>
+        <!--navigation menu -->
+        <div class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <!--drop-down menu -->
+                <li class="dropdown">
+                    <a href="Products.html" class="dropbutton">Products</a>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a href="DairyProducts.html">Dairy Products</a></li>
+                            <li><a href="Vegetables.html">Vegetables</a></li>
+                            <li><a href="Cosmetics.html">Cosmetics and Skincare</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <!--icons in the navbar -->
+            <div class="icons-container">
+                <a href="loyalty.html" class="icon">
+                    <img src="images/loyalty-icon.png" alt="">
+                </a>
+                <a href="cart.html" class="icon">
+                    <img src="images/shopping-cart-icon.png" alt="">
+                </a>
+            </div>
+        </div>
+    </header>
+        
+    <main>
+        <div class="home-image">
+            <img src="images/home-header.png" alt="responsive image">
+            <div class="welcome-greet">
+                <p id="welcome">Where Every Aisle Brings a Smile!</p>
+                <p id="name"><span class="font">Grocies</span><br>Supermarket</p>
+                <form>
+                    <button class="shop-now" type="submit" formaction="Products.html" >Shop Now</button>
+                </form> 
+            </div>  
+        </div><br><br>
+
+        <section class="commitment">
+            <div class="about-grid">
+                <div class="line"></div> <!--a line for styling -->
+                <h1>Our Commitment:</h1>
+                <div class="line"></div>
+            </div>
+            <br>
+            <div class="home-commitment">
+                <img src="images/commitment.png" alt="beyond-groceries">
+                <div class="home-ul-list">
+                    <p>We are dedicated to providing you with:</p>
+                    <ul>
+                        <li><span>Quality You Can Trust: </span>We source our products with care, prioritizing fresh, local ingredients whenever possible.</li><br>
+                        <li><span>Exceptional Service: </span>Our friendly and knowledgeable staff are here to assist you and make your shopping experience enjoyable.</li><br>
+                        <li><span>Competitive Prices: </span>We offer everyday low prices and unbeatable deals to ensure you get the best value for your money.</li><br>
+                        <li><span>Convenience: </span>Shop online for delivery or pickup.</li><br><br>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!--brief about the services the supermarket offers -->
+        <section class="beyond-groceries">
+            <div class="about-grid">
+                <div class="line"></div>
+                <h1>Beyond Groceries:</h1>
+                <div class="line"></div>
+            </div>
+            <br>
+            <div class="home-services">
+                <img src="images/home-services.jpg" alt="beyond-groceries">
+                <div class="servicess">
+                    <p>We offer a variety of services to make your life easier, including:</p><br>
+                    <ol>
+                        <li><span>Delivery:</span> Get your groceries delivered straight to your door.</li><br>
+                        <li><span>Catering:</span> Impress your guests with delicious catering platters.</li><br>
+                        <li><span>Party Planning:</span> Let us help you create a customized menu and party supplies.</li><br>
+                        <li><span>In-Store Services:</span> Enjoy additional conveniences like a pharmacy, fresh sushi counter,<br> or hot food bar (availability varies by location).</li>
+                    </ol>
+                </div>
+            </div>
+        </section><br><br>
+        <!--brief about the loyalty program -->
+        <section class="home-loyalty">
+            <div class="about-grid">
+                <div class="h-line"></div>
+                <h1>Earn Rewards on Every Purchase - Join Our Loyalty Program!</h1>
+                <div class="h-line"></div>
+            </div>
+            
+            <div class="about-intro">
+                <p>Join our loyalty program today and start earning points on every purchase you make, not only will you accumulate rewards faster than ever, but you'll also unlock exclusive benefits tailored just for you. Redeem your points for instant discounts, enjoy free groceries on your shopping trips, and discover exclusive offers that are only available to our valued members.</p>
+            </div>
+            <img src="images/Grocies Loyalty Card.png" alt="loyalty card">
+            <form>
+                <button class="join-now" type="submit" formaction="loyalty.html" >Join Now!</button>
+            </form> 
+        </section>
+
+        <!--image boxes as links to the specific product page-->
+        <section class="product-boxes">
+            <div class="about-grid">
+                <div class="line"></div>
+                <h1>What We Offer:</h1>
+                <div class="line"></div>
+            </div>
+            <div class="curved-boxes">
+                <a href="DairyProducts.html">
+                    <div class="box curved-dairy">
+                        <p>Dairy Products</p>
+                    </div>
+                </a>
+                <a href="Vegetables.html">
+                    <div class="box curved-vege">
+                        <p>Vegetables</p>
+                    </div>
+                </a>
+                <a href="Cosmetics.html">
+                    <div class="box curved-cos">
+                        <p>Cosmetics and <br>Skincare</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+    <br><br>
+    <footer class="custom-footer">
+        <!--social icons linked to the top of the page-->
+        <div class="footer-social">
+            <a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="images/instagram-icon.png" alt="Instagram"></a>
+        </div>
+        <div class="footer-contact">
+          <p>Phone: +1234567890</p>
+          <p>Email: info@grociessupermarket.com</p>
+        </div>
+        <div class="footer-copyright">
+          <p>&copy; 2024 Grocies Supermarket. All rights reserved.</p>
+        </div>
+        <!--images from: https://www.freepik.com/-->
+    </footer>
+</body>
+</html>

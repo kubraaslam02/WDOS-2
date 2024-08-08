@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocies Supermarket</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="Styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="logo" src="./images/logo.png" alt="Logo">
+        </a>
+        <!--navigation menu -->
+        <div class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <!--drop-down menu -->
+                <li class="dropdown">
+                    <a href="Products.html" class="dropbutton">Products</a>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a href="DairyProducts.html">Dairy Products</a></li>
+                            <li><a href="Vegetables.html">Vegetables</a></li>
+                            <li><a href="Cosmetics.html">Cosmetics and Skincare</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <!--icons in the navbar -->
+            <div class="icons-container">
+                <a href="loyalty.html" class="icon">
+                    <img src="images/loyalty-icon.png" alt="">
+                </a>
+                <a href="cart.html" class="icon">
+                    <img src="images/shopping-cart-icon.png" alt="">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="products-image">
+            <img src="images/products.png" alt="products-image">
+            <h2>PRODUCTS</h2>
+        </div>
+
+        <section class="typeOfProducts">
+            <div class="style-grid">
+                <div class="grid-line"></div> <!--a line for styling -->
+                <div class="grid-text">Shop by <span class="fontp">Category</span></div>
+                <div class="grid-line"></div>
+            </div>
+            <!--images in a grid for the categories with linked buttons -->
+            <div class="products-grid">
+                <div class="grid-item item1">
+                    <p id="button">Dairy Products</p>
+                    <q>Where Freshness Meets Flavor in Every Bite</q>
+                    <form>
+                        <button class="arrow-button" type="submit" formaction="DairyProducts.html" aria-label="Arrow button">Shop Now </button>
+                    </form>
+                </div>
+                <div class="grid-item item2">
+                    <p id="button">Vegetables</p>
+                    <q>Straight From the Farm to Your Table</q>
+                    <form>
+                        <button class="arrow-button" type="submit" formaction="Vegetables.html" aria-label="Arrow button">Shop Now </button>
+                    </form>
+                </div>
+                <div class="grid-item item3">
+                    <p id="button">Cosmetics and Skincare</p>
+                    <q>Tailored to Enhance Your Beauty</q>
+                    <form>
+                        <button class="arrow-button" type="submit" formaction="Cosmetics.html" aria-label="Arrow button">Shop Now </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="custom-footer">
+        <div class="footer-social">
+            <!--social icons linked to the top of the page-->
+            <a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="images/instagram-icon.png" alt="Instagram"></a>
+        </div>
+
+        <div class="footer-contact">
+          <p>Phone: +1234567890</p>
+          <p>Email: info@grociessupermarket.com</p>
+        </div>
+        <div class="footer-copyright">
+          <p>&copy; 2024 Grocies Supermarket. All rights reserved.</p>
+        </div>
+        <!--images from: https://unsplash.com, https://www.freepik.com/-->
+    </footer>
+</body>
+</html>

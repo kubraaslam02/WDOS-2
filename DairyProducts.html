@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocies Supermarket</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="Styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="logo" src="./images/logo.png" alt="Logo">
+        </a>
+        <!--navigation menu -->
+        <div class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <!--drop-down menu -->
+                <li class="dropdown">
+                    <a href="Products.html" class="dropbutton">Products</a>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a href="DairyProducts.html">Dairy Products</a></li>
+                            <li><a href="Vegetables.html">Vegetables</a></li>
+                            <li><a href="Cosmetics.html">Cosmetics and Skincare</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <!--icons in the navbar -->
+            <div class="icons-container">
+                <a href="loyalty.html" class="icon">
+                    <img src="images/loyalty-icon.png" alt="">
+                </a>
+                <a href="cart.html" class="icon">
+                    <img src="images/shopping-cart-icon.png" alt="">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="dairy-products-image">
+            <img src="images/dairy-header.jpg" alt="products-image">
+            <h3>DAIRY PRODUCTS</h3>
+            <!--an introduction in a box-->
+            <div class="dairy-intro-box">
+                <p>Welcome to our dairy oasis, where freshness and flavor converge to delight your senses. Explore our exquisite selection of premium dairy products, from creamy cheeses to velvety yogurts, crafted with care to elevate every indulgence.</p>
+            </div>
+        </div>
+
+        <!--products arranged in a flexbox-->
+        <section class="dairy-flexbox">
+            <div class="dairy-products">
+                <div class="dairy-item">
+                    <img src="dairy-products-img/ambewela-fresh-milk.png" alt="dairy">
+                    <p id="dairy-name">Ambewela Fresh Milk</p>
+                    <p id="dairy-quantity">1000ml</p>
+                    <p id="dairy-price">Rs. 500.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="dairy-item">
+                    <img src="dairy-products-img/ambewela-non-fat-milk.png" alt="dairy">
+                    <p id="dairy-name">Ambewela Non-Fat Milk</p>
+                    <p id="dairy-quantity">1000ml</p>
+                    <p id="dairy-price">Rs. 550.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="dairy-item">
+                    <img src="dairy-products-img/kotmale-faluda.png" alt="dairy">
+                    <p id="dairy-name">Kotmale Faluda Flavoured Milk</p>
+                    <p id="dairy-quantity">1 Litre</p>
+                    <p id="dairy-price">Rs. 620.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="dairy-item">
+                    <img src="dairy-products-img/anchor-milkpowder.png" alt="dairy">
+                    <p id="dairy-name">Anchor Milk Powder</p>
+                    <p id="dairy-quantity">1kg</p>
+                    <p id="dairy-price">Rs. 3100.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="dairy-item">
+                    <img src="dairy-products-img/daily-banana.png" alt="dairy">
+                    <p id="dairy-name">Daily Banana Flavoured Milk</p>
+                    <p id="dairy-quantity">200ml</p>
+                    <p id="dairy-price">Rs. 120.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="dairy-item">
+                    <img src="dairy-products-img/daily-choc.png" alt="dairy">
+                    <p id="dairy-name">Daily Chocolate Flavoured Milk</p>
+                    <p id="dairy-quantity">200ml</p>
+                    <p id="dairy-price">Rs. 120.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="dairy-item">
+                    <img src="dairy-products-img/daily-strawberry.png" alt="dairy">
+                    <p id="dairy-name">Daily Strawberry Flavoured Milk</p>
+                    <p id="dairy-quantity">200ml</p>
+                    <p id="dairy-price">Rs. 120.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="dairy-item">
+                    <img src="dairy-products-img/daily-vanilla.png" alt="dairy">
+                    <p id="dairy-name">Daily Vanilla Flavoured Milk</p>
+                    <p id="dairy-quantity">200ml</p>
+                    <p id="dairy-price">Rs. 120.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="dairy-item">
+                    <img src="dairy-products-img/EH-choc-milk.png" alt="dairy">
+                    <p id="dairy-name">Elephant House Chocolate Flavoured Milk</p>
+                    <p id="dairy-quantity">190ml</p>
+                    <p id="dairy-price">Rs. 130.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="dairy-item">
+                    <img src="dairy-products-img/EH-strawberry-milk.png" alt="dairy">
+                    <p id="dairy-name">Elephant House Strawberry Flavoured Milk</p>
+                    <p id="dairy-quantity">190ml</p>
+                    <p id="dairy-price">Rs. 130.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="dairy-item">
+                    <img src="dairy-products-img/EH-vanilla-milk.png" alt="dairy">
+                    <p id="dairy-name">Elephant House Vanilla Flavoured Milk</p>
+                    <p id="dairy-quantity">190ml</p>
+                    <p id="dairy-price">Rs. 130.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="dairy-item">
+                    <img src="dairy-products-img/richlife-icedmalt.png" alt="dairy">
+                    <p id="dairy-name">RichLife Iced Malt with Oats</p>
+                    <p id="dairy-quantity">180ml</p>
+                    <p id="dairy-price">Rs. 120.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="dairy-item">
+                    <img src="dairy-products-img/richlife-yoghurt.png" alt="dairy">
+                    <p id="dairy-name">RichLife Set Yoghurt</p>
+                    <p id="dairy-quantity">80g</p>
+                    <p id="dairy-price">Rs. 80.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="dairy-item">
+                    <img src="dairy-products-img/newdale-yoghurt.png" alt="dairy">
+                    <p id="dairy-name">Anchor Newdale Set Yoghurt</p>
+                    <p id="dairy-quantity">80g</p>
+                    <p id="dairy-price">Rs. 80.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="dairy-item">
+                    <img src="dairy-products-img/ambewela-yoghurt.png" alt="dairy">
+                    <p id="dairy-name">Ambewela Set Yoghurt</p>
+                    <p id="dairy-quantity">80g</p>
+                    <p id="dairy-price">Rs. 80.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="dairy-item">
+                    <img src="dairy-products-img/ambewela-gouda-cheese.png" alt="dairy">
+                    <p id="dairy-name">Ambewela Gouda Cheese</p>
+                    <p id="dairy-quantity">250g</p>
+                    <p id="dairy-price">Rs. 595.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="dairy-item">
+                    <img src="dairy-products-img/kraft-cheese.png" alt="dairy">
+                    <p id="dairy-name">Kraft Chedder Cheese</p>
+                    <p id="dairy-quantity">100g</p>
+                    <p id="dairy-price">Rs. 1350.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="dairy-item">
+                    <img src="dairy-products-img/happycow-cheese.png" alt="dairy">
+                    <p id="dairy-name">Happy Cow Cheese</p>
+                    <p id="dairy-quantity">200g</p>
+                    <p id="dairy-price">Rs. 1790.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="dairy-item">
+                    <img src="dairy-products-img/kotmake-cheese.png" alt="dairy">
+                    <p id="dairy-name">Kotmale Processed Cheese Wedges</p>
+                    <p id="dairy-quantity">120g</p>
+                    <p id="dairy-price">Rs. 560.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="dairy-item">
+                    <img src="dairy-products-img/richlife-cheese-slices.png" alt="dairy">
+                    <p id="dairy-name">RichLife Cheese Wedges</p>
+                    <p id="dairy-quantity">120g</p>
+                    <p id="dairy-price">Rs. 560.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="dairy-item">
+                    <img src="dairy-products-img/kotmale-processed-cheese.png" alt="dairy">
+                    <p id="dairy-name">Kotmale Processed Cheese</p>
+                    <p id="dairy-quantity">200g</p>
+                    <p id="dairy-price">Rs. 950.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="dairy-item">
+                    <img src="dairy-products-img/meadowlee-butter.png" alt="dairy">
+                    <p id="dairy-name">MeadowLea Fat Spread</p>
+                    <p id="dairy-quantity">1kg</p>
+                    <p id="dairy-price">Rs. 1540.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="dairy-item">
+                    <img src="dairy-products-img/astra-butter.png" alt="dairy">
+                    <p id="dairy-name">Astra Fat Spread</p>
+                    <p id="dairy-quantity">500g</p>
+                    <p id="dairy-price">Rs. 1100.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="dairy-item">
+                    <img src="dairy-products-img/flora-butter.png" alt="dairy">
+                    <p id="dairy-name">Flora Fat Spread</p>
+                    <p id="dairy-quantity">500g</p>
+                    <p id="dairy-price">Rs. 1550.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+            </div>
+        </section> 
+    </main>
+    <footer class="custom-footer">
+        <div class="footer-social">
+            <!--social icons linked to the top of the page-->
+            <a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="images/instagram-icon.png" alt="Instagram"></a>
+        </div>
+
+        <div class="footer-contact">
+          <p>Phone: +1234567890</p>
+          <p>Email: info@grociessupermarket.com</p>
+        </div>
+        <div class="footer-copyright">
+          <p>&copy; 2024 Grocies Supermarket. All rights reserved.</p>
+        </div>
+        <!--images from: https://www.freepik.com/, https://www.spar.lk/, https://www.keellssuper.com/, https://www.onlinekade.lk/-->
+    </footer>
+</body>
+</html>

@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocies Supermarket</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="Styles.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="logo" src="./images/logo.png" alt="Logo">
+        </a>
+        <!--navigation menu -->
+        <div class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <!--drop-down menu -->
+                <li class="dropdown">
+                    <a href="Products.html" class="dropbutton">Products</a>
+                    <div class="dropdown-content">
+                        <ul>
+                            <li><a href="DairyProducts.html">Dairy Products</a></li>
+                            <li><a href="Vegetables.html">Vegetables</a></li>
+                            <li><a href="Cosmetics.html">Cosmetics and Skincare</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <!--icons in the navbar -->
+            <div class="icons-container">
+                <a href="loyalty.html" class="icon">
+                    <img src="images/loyalty-icon.png" alt="">
+                </a>
+                <a href="cart.html" class="icon">
+                    <img src="images/shopping-cart-icon.png" alt="">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="products-image">
+            <img src="images/vege_header.jpg" alt="products-image">
+            <h3><span class="letter">V</span>EGETABLES</h3>
+        </div>
+
+        <section class="venues">
+            <div class="style-grid">
+                <div class="venue-line"></div> <!--a line for styling -->
+                <div class="venue-text">Discover our Lush Vegetable <span class="fontp">Sourcing Hubs</span></div>
+                <div class="venue-line"></div>
+            </div>
+            
+            <!--description about the venues where the vegetables are provided-->
+            <div class="vege-venues">
+                <div class="venue">
+                    <img src="images/Farm-Fresh Production.jpg" class="half-on-top1">
+                    <p id="venue-name">Farm-Fresh Production</p>
+                    <p id="venue-description">This is where vibrant colors and enticing aromas greet you at every turn. Here, we showcase a bountiful selection of vegetables sourced directly from local farms, ensuring unparalleled freshness and quality. From crisp lettuce and juicy tomatoes to an array of seasonal delights, each vegetable is handpicked to adorn your table with nature's finest offerings.</p>
+                </div>
+                
+                <div class="venue">
+                    <img src="images/Organic Garden.jpg" class="half-on-top2">
+                    <p id="venue-name">Organic Garden</p>
+                    <p id="venue-description">This is where purity meets perfection in every vegetable we offer. Embrace the goodness of nature with our certified organic produce, cultivated with care and reverence for the environment. Feel confident in the quality and integrity of our vegetables, knowing that they are free from pesticides and grown in harmony with the earth.</p>
+                </div>
+                
+                <div class="venue">
+                    <img src="images/International Market.jpg" class="half-on-top3">
+                    <p id="venue-name">International Market</p>
+                    <p id="venue-description">This is where exotic flavors and unique vegetables await your discovery. Explore a diverse array of produce from around the world, carefully selected to add a touch of international flair to your meals. From Japanese eggplants to Indian okra, indulge your palate with the rich tapestry of global vegetable offerings available right here in our supermarket.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--vegetables arranged through a grid -->
+        <section class="vegetabless">
+            <div class="vege-grid">
+                <div class="vege-item">
+                    <img src="vege-products-img/ashplantain.png" alt="vege">
+                    <p id="vege-name">Ash Plantain</p>
+                    <p id="vege-quantity">Per 500g</p>
+                    <p id="vege-price">Rs. 150.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/asparagus.png" alt="vege">
+                    <p id="vege-name">Asparagus</p>
+                    <p id="vege-quantity">Per 100g</p>
+                    <p id="vege-price">Rs. 325.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/greenbeans.png" alt="vege">
+                    <p id="vege-name">Green Beans</p>
+                    <p id="vege-quantity">Per 500g</p>
+                    <p id="vege-price">Rs. 160.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/beetroot.png" alt="vege">
+                    <p id="vege-name">Beetroot</p>
+                    <p id="vege-quantity">Per 500g</p>
+                    <p id="vege-price">Rs. 204.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/green-bell-pepper.png" alt="vege">
+                    <p id="vege-name">Green Bell Peppers</p>
+                    <p id="vege-quantity">Per 100g</p>
+                    <p id="vege-price">Rs. 94.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/broccoli.png" alt="vege">
+                    <p id="vege-name">Broccoli</p>
+                    <p id="vege-quantity">Per 500g</p>
+                    <p id="vege-price">Rs. 578.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/cabbage.png" alt="vege">
+                    <p id="vege-name">Cabbage</p>
+                    <p id="vege-quantity">Per 500g</p>
+                    <p id="vege-price">Rs. 160.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/red-bell-pepper.png" alt="vege">
+                    <p id="vege-name">Red Bell Pepper</p>
+                    <p id="vege-quantity">Per 100g</p>
+                    <p id="vege-price">Rs. 108.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/yellow-bell-paper.png" alt="vege">
+                    <p id="vege-name">Yellow Bell Pepper</p>
+                    <p id="vege-quantity">Per 100g</p>
+                    <p id="vege-price">Rs. 104.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/cauliflower.png" alt="vege">
+                    <p id="vege-name">Cauliflower</p>
+                    <p id="vege-quantity">Per 100g</p>
+                    <p id="vege-price">Rs. 85.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/MintLeaves.jpg" alt="vege">
+                    <p id="vege-name">Mint Leaves</p>
+                    <p id="vege-quantity">Per 100g</p>
+                    <p id="vege-price">Rs. 90.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/drumstick.png" alt="vege">
+                    <p id="vege-name">Drumstick</p>
+                    <p id="vege-quantity">Per 500g</p>
+                    <p id="vege-price">Rs. 425.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/celery.png" alt="vege">
+                    <p id="vege-name">Celery</p>
+                    <p id="vege-quantity">Per 100g</p>
+                    <p id="vege-price">Rs. 75.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/coriander-leaves.png" alt="vege">
+                    <p id="vege-name">Coriander Leaves</p>
+                    <p id="vege-quantity">Per 100g</p>
+                    <p id="vege-price">Rs. 50.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/lettuce.png" alt="vege">
+                    <p id="vege-name">Lettuce</p>
+                    <p id="vege-quantity">Per 100g</p>
+                    <p id="vege-price">Rs. 80.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/tomatoe.png" alt="vege">
+                    <p id="vege-name">Tomatoes</p>
+                    <p id="vege-quantity">Per 100g</p>
+                    <p id="vege-price">Rs. 60.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/parseley.png" alt="vege">
+                    <p id="vege-name">Parseley</p>
+                    <p id="vege-quantity">Per 100g</p>
+                    <p id="vege-price">Rs. 95.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/zuchini.png" alt="vege">
+                    <p id="vege-name">Zucchini</p>
+                    <p id="vege-quantity">Per 500g</p>
+                    <p id="vege-price">Rs. 420.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/cucumber.png" alt="vege">
+                    <p id="vege-name">Cucumber</p>
+                    <p id="vege-quantity">Per 500g</p>
+                    <p id="vege-price">Rs. 133.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/red-chilli.png" alt="vege">
+                    <p id="vege-name">Dry Red Chillies</p>
+                    <p id="vege-quantity">Per 100g</p>
+                    <p id="vege-price">Rs. 170.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/bitter-guord.png" alt="vege">
+                    <p id="vege-name">Bitter Gourd</p>
+                    <p id="vege-quantity">Per 500g</p>
+                    <p id="vege-price">Rs. 150.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/brinjal.png" alt="vege">
+                    <p id="vege-name">Brinjal</p>
+                    <p id="vege-quantity">Per 500g</p>
+                    <p id="vege-price">Rs. 165.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/GreenChilli.png" alt="vege">
+                    <p id="vege-name">Green Chillies</p>
+                    <p id="vege-quantity">Per 500g</p>
+                    <p id="vege-price">Rs. 175.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/onion.png" alt="vege">
+                    <p id="vege-name">Red Onion</p>
+                    <p id="vege-quantity">Per 500g</p>
+                    <p id="vege-price">Rs. 300.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/mushroom.png" alt="vege">
+                    <p id="vege-name">Mushroom</p>
+                    <p id="vege-quantity">Per 100g</p>
+                    <p id="vege-price">Rs. 200.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/ladiesfinger.png" alt="vege">
+                    <p id="vege-name">Ladies Finger</p>
+                    <p id="vege-quantity">Per 500g</p>
+                    <p id="vege-price">Rs. 120.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/lime.png" alt="vege">
+                    <p id="vege-name">Lime</p>
+                    <p id="vege-quantity">Per 100g</p>
+                    <p id="vege-price">Rs. 168.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/Snake-guord.png" alt="vege">
+                    <p id="vege-name">Snake Gourd</p>
+                    <p id="vege-quantity">Per 500g</p>
+                    <p id="vege-price">Rs. 160.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/leeks.png" alt="vege">
+                    <p id="vege-name">Leeks</p>
+                    <p id="vege-quantity">Per 500g</p>
+                    <p id="vege-price">Rs. 150.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/coconut.jpg" alt="vege">
+                    <p id="vege-name">Coconut</p>
+                    <p id="vege-quantity">Per unit</p>
+                    <p id="vege-price">Rs. 120.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/Carrot.png" alt="vege">
+                    <p id="vege-name">Carrot</p>
+                    <p id="vege-quantity">Per 500g</p>
+                    <p id="vege-price">Rs. 200.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/potatoe.png" alt="vege">
+                    <p id="vege-name">Potatoe</p>
+                    <p id="vege-quantity">Per 500g</p>
+                    <p id="vege-price">Rs. 200.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/Spring-Onions.png" alt="vege">
+                    <p id="vege-name">Spring Onion</p>
+                    <p id="vege-quantity">Per 100g</p>
+                    <p id="vege-price">Rs. 55.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/garlic.png" alt="vege">
+                    <p id="vege-name">Garlic</p>
+                    <p id="vege-quantity">Per 500g</p>
+                    <p id="vege-price">Rs. 500.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/Pumpkin.png" alt="vege">
+                    <p id="vege-name">Pumpkin</p>
+                    <p id="vege-quantity">Per 500g</p>
+                    <p id="vege-price">Rs. 110.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+                <div class="vege-item">
+                    <img src="vege-products-img/Raddish.png" alt="vege">
+                    <p id="vege-name">Raddish</p>
+                    <p id="vege-quantity">Per 500g</p>
+                    <p id="vege-price">Rs. 150.00</p>
+                    <form>
+                        <button class="order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="custom-footer">
+        <div class="footer-social">
+            <!--social icons linked to the top of the page-->
+            <a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="images/instagram-icon.png" alt="Instagram"></a>
+        </div>
+
+        <div class="footer-contact">
+          <p>Phone: +1234567890</p>
+          <p>Email: info@grociessupermarket.com</p>
+        </div>
+        <div class="footer-copyright">
+          <p>&copy; 2024 Grocies Supermarket. All rights reserved.</p>
+        </div>
+        <!--images from: https://www.freepik.com/, https://www.spar.lk/, https://www.keellssuper.com/, https://www.onlinekade.lk/, https://www.vecteezy.com/, https://www.pexels.com/-->
+    </footer>
+</body>
+</html>
+
