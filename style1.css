@@ -201,7 +201,7 @@ body {
     margin: 20px;
 }
 
-#item {
+.item {
     flex: 1 0 200px;
     margin: 5px;
     padding: 10px;
@@ -212,20 +212,20 @@ body {
     border-radius: 5px;
 }
 
-#item img {
+.item img {
     height: 150px;
     width: 150px;
     align-items: center;
 }
 
-#item-name {
+.item-name {
     margin-top: 10px;
     font-size: 22px;
     color: #132A13;
     font-weight: bolder;
 }
 
-#item-price {
+.item-price {
     font-size: 18px;
 }
 
