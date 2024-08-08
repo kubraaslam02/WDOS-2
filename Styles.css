@@ -52,7 +52,7 @@ body {
 }
 
 .navbar .active {
-    color: #808F59;
+    color:  #344E41;
     font-weight: bold;
 }
 
@@ -180,7 +180,7 @@ body {
 }
 
 .welcome-greet #name {
-    color: #A3B18A;
+    color: #344E41;
     font-size: 80px;
     margin-top: 150px;
     margin-bottom: 30px;
@@ -215,7 +215,7 @@ body {
     margin-top: -50px;
 }
 
-.home-ul-list h4 {
+.home-ul-list h2 {
     text-align: left;
     margin-top: -400px;
     margin-bottom: 100px;
@@ -325,7 +325,7 @@ body {
     background-position: center;
 }
 
-.box h4 {
+.box h2 {
     font-size: 30px;
     font-style: italic;
     font-weight: bold;
@@ -385,7 +385,7 @@ body {
         height: auto;
     }
     
-    .home-ul-list p {
+    .home-ul-list h2 {
         margin-top: -100px;
         margin-bottom: 50px;
         margin-left: 170px;
@@ -463,7 +463,7 @@ body {
         margin-top: 35px;
     }
     
-    .box p {
+    .box h2 {
         font-size: 15px;
         margin-right: 95px;
     }
