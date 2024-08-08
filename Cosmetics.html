@@ -10,9 +10,7 @@
 
 <body>
     <header class="header">
-        <a href="index.html">
-            <img class="logo" src="./images/logo.png" alt="Logo">
-        </a>
+        <img class="logo" src="./images/logo.png" alt="Supermarket Logo">
         <!--navigation menu -->
         <div class="navbar">
             <ul class="nav-links">
@@ -33,10 +31,10 @@
             <!--icons in the navbar -->
             <div class="icons-container">
                 <a href="loyalty.html" class="icon">
-                    <img src="images/loyalty-icon.png" alt="">
+                    <img src="images/loyalty-icon.png" alt="loyalty icon">
                 </a>
                 <a href="cart.html" class="icon">
-                    <img src="images/shopping-cart-icon.png" alt="">
+                    <img src="images/shopping-cart-icon.png" alt="cart icon">
                 </a>
             </div>
         </div>
@@ -44,13 +42,13 @@
 
     <main>
         <div class="cosmetics-products-image">
-            <img src="images/cosmetics-header.jpg" alt="products-image">
-            <h3><span class="style">C</span>OSMETICS AND <span class="style">S</span>KINCARE</h3>
+            <img src="images/cosmetics-header.jpg" alt="cream, powder, some bottles and flowers">
+            <h1><span class="style">C</span>OSMETICS AND <span class="style">S</span>KINCARE</h1>
         </div>
     </main>
 
     <!--products arranged in a table-->
-    <section class="cosmetics-skincare">
+    <div class="cosmetics-skincare">
         <table class="skincare-products">
             <thead>
                 <tr>
@@ -63,18 +61,18 @@
             <tbody>
                 <tr>
                     <td><img src="cosmetics-products-img/cerave-hydrating-cleanser.png" alt="Product 1"></td>
-                    <td><p id="cos-name">Cerave Hydrating Cleanser</p>
-                        <p id="cos-quantity">236ml</p>
-                        <p id="cos-price">Rs. 8,300.00</p>
+                    <td><p class="cos-name">Cerave Hydrating Cleanser</p>
+                        <p class="cos-quantity">236ml</p>
+                        <p class="cos-price">Rs. 8,300.00</p>
                         <form>
                             <button class="cos-order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
                         </form>
                     </td>
                     <td><img src="cosmetics-products-img/cerave-moisturising-lotion.png" alt="Product 2"></td>
                     <td>
-                        <p id="cos-name">Cerave Moisturising Lotion</p>
-                        <p id="cos-quantity">473ml</p>
-                        <p id="cos-price">Rs. 6,200.00</p>
+                        <p class="cos-name">Cerave Moisturising Lotion</p>
+                        <p class="cos-quantity">473ml</p>
+                        <p class="cos-price">Rs. 6,200.00</p>
                         <form>
                             <button class="cos-order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
                         </form>
@@ -82,17 +80,17 @@
                 </tr>
                 <tr>
                     <td><img src="cosmetics-products-img/cetaphil-moisturising-lotion.png" alt="Product 3"></td>
-                    <td><p id="cos-name">Cetaphil Moisturising Lotion</p>
-                        <p id="cos-quantity">100ml</p>
-                        <p id="cos-price">Rs. 4,450.00</p>
+                    <td><p class="cos-name">Cetaphil Moisturising Lotion</p>
+                        <p class="cos-quantity">100ml</p>
+                        <p class="cos-price">Rs. 4,450.00</p>
                         <form>
                             <button class="cos-order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
                         </form>
                     </td>
                     <td><img src="cosmetics-products-img/cetaphil-oily-skin-cleanser.png" alt="Product 4"></td>
-                    <td><p id="cos-name">Cetaphil Oily Skin Cleanser</p>
-                        <p id="cos-quantity">236ml</p>
-                        <p id="cos-price">Rs. 5,500.00</p>
+                    <td><p class="cos-name">Cetaphil Oily Skin Cleanser</p>
+                        <p class="cos-quantity">236ml</p>
+                        <p class="cos-price">Rs. 5,500.00</p>
                         <form>
                             <button class="cos-order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
                         </form>
@@ -100,17 +98,17 @@
                 </tr>
                 <tr>
                     <td><img src="cosmetics-products-img/dr-rashel-eye-serum.png" alt="Product 5"></td>
-                    <td><p id="cos-name">Dr. Rashel Eye Serum</p>
-                        <p id="cos-quantity">30ml</p>
-                        <p id="cos-price">Rs. 1,800.00</p>
+                    <td><p class="cos-name">Dr. Rashel Eye Serum</p>
+                        <p class="cos-quantity">30ml</p>
+                        <p class="cos-price">Rs. 1,800.00</p>
                         <form>
                             <button class="cos-order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
                         </form>
                     </td>
                     <td><img src="cosmetics-products-img/dr-rashel-face-cream.png" alt="Product 6"></td>
-                    <td><p id="cos-name">Dr. Rashel Face Cream</p>
-                        <p id="cos-quantity">50g</p>
-                        <p id="cos-price">Rs. 1,800.00</p>
+                    <td><p class="cos-name">Dr. Rashel Face Cream</p>
+                        <p class="cos-quantity">50g</p>
+                        <p class="cos-price">Rs. 1,800.00</p>
                         <form>
                             <button class="cos-order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
                         </form>
@@ -118,17 +116,17 @@
                 </tr>
                 <tr>
                     <td><img src="cosmetics-products-img/dr-rashel-soothing-gel.png" alt="Product 7"></td>
-                    <td><p id="cos-name">Dr. Rashel Soothing Gel</p>
-                        <p id="cos-quantity">300g</p>
-                        <p id="cos-price">Rs. 2,100.00</p>
+                    <td><p class="cos-name">Dr. Rashel Soothing Gel</p>
+                        <p class="cos-quantity">300g</p>
+                        <p class="cos-price">Rs. 2,100.00</p>
                         <form>
                             <button class="cos-order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
                         </form>
                     </td>
                     <td><img src="cosmetics-products-img/loreal-mascara.png" alt="Product 8"></td>
-                    <td><p id="cos-name">L'Oreal Mascara</p>
-                        <p id="cos-quantity">Waterproof Black</p>
-                        <p id="cos-price">Rs. 5,700.00</p>
+                    <td><p class="cos-name">L'Oreal Mascara</p>
+                        <p class="cos-quantity">Waterproof Black</p>
+                        <p class="cos-price">Rs. 5,700.00</p>
                         <form>
                             <button class="cos-order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
                         </form>
@@ -136,17 +134,17 @@
                 </tr>
                 <tr>
                     <td><img src="cosmetics-products-img/mac-foundation.jpg" alt="Product 9"></td>
-                    <td><p id="cos-name">MAC Foundation</p>
-                        <p id="cos-quantity">30ml</p>
-                        <p id="cos-price">Rs. 12,950.00</p>
+                    <td><p class="cos-name">MAC Foundation</p>
+                        <p class="cos-quantity">30ml</p>
+                        <p class="cos-price">Rs. 12,950.00</p>
                         <form>
                             <button class="cos-order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
                         </form>
                     </td>
                     <td><img src="cosmetics-products-img/master-creation-lipstick.png" alt="Product 10"></td>
-                    <td><p id="cos-name">MasterCreation Lipstick</p>
-                        <p id="cos-quantity">SPF 20</p>
-                        <p id="cos-price">Rs. 5,900.00</p>
+                    <td><p class="cos-name">MasterCreation Lipstick</p>
+                        <p class="cos-quantity">SPF 20</p>
+                        <p class="cos-price">Rs. 5,900.00</p>
                         <form>
                             <button class="cos-order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
                         </form>
@@ -154,17 +152,17 @@
                 </tr>
                 <tr>
                     <td><img src="cosmetics-products-img/revlon-foundation-30ml.png" alt="Product 11"></td>
-                    <td><p id="cos-name">Revlon Illuminance Foundation</p>
-                        <p id="cos-quantity">30ml</p>
-                        <p id="cos-price">Rs. 4,000.00</p>
+                    <td><p class="cos-name">Revlon Illuminance Foundation</p>
+                        <p class="cos-quantity">30ml</p>
+                        <p class="cos-price">Rs. 4,000.00</p>
                         <form>
                             <button class="cos-order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
                         </form>
                     </td>
                     <td><img src="cosmetics-products-img/revlon-foundation.png" alt="Product 12"></td>
-                    <td><p id="cos-name">Revlon Colorstay Foundation</p>
-                        <p id="cos-quantity">30ml</p>
-                        <p id="cos-price">Rs. 12,500.00</p>
+                    <td><p class="cos-name">Revlon Colorstay Foundation</p>
+                        <p class="cos-quantity">30ml</p>
+                        <p class="cos-price">Rs. 12,500.00</p>
                         <form>
                             <button class="cos-order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
                         </form>
@@ -172,17 +170,17 @@
                 </tr>
                 <tr>
                     <td><img src="cosmetics-products-img/revlon-lipstick.png" alt="Product 13"></td>
-                    <td><p id="cos-name">Revlon Lipstick</p>
-                        <p id="cos-quantity">Super Lustrous</p>
-                        <p id="cos-price">Rs. 8,300.00</p>
+                    <td><p class="cos-name">Revlon Lipstick</p>
+                        <p class="cos-quantity">Super Lustrous</p>
+                        <p class="cos-price">Rs. 8,300.00</p>
                         <form>
                             <button class="cos-order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
                         </form>
                     </td>
                     <td><img src="cosmetics-products-img/roushun-moisturising-gel.png" alt="Product 14"></td>
-                    <td><p id="cos-name">Roushun Moisturising Gel</p>
-                        <p id="cos-quantity">300ml</p>
-                        <p id="cos-price">Rs. 1,250.00</p>
+                    <td><p class="cos-name">Roushun Moisturising Gel</p>
+                        <p class="cos-quantity">300ml</p>
+                        <p class="cos-price">Rs. 1,250.00</p>
                         <form>
                             <button class="cos-order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
                         </form>
@@ -190,17 +188,17 @@
                 </tr>
                 <tr>
                     <td><img src="cosmetics-products-img/the-one-lipstick.png" alt="Product 15"></td>
-                    <td><p id="cos-name">The One Lipstick</p>
-                        <p id="cos-quantity">Colour Unlimited Matte</p>
-                        <p id="cos-price">Rs. 4,500.00</p>
+                    <td><p class="cos-name">The One Lipstick</p>
+                        <p class="cos-quantity">Colour Unlimited Matte</p>
+                        <p class="cos-price">Rs. 4,500.00</p>
                         <form>
                             <button class="cos-order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
                         </form>
                     </td>
                     <td><img src="cosmetics-products-img/the-ordinary-foundation.png" alt="Product 16"></td>
-                    <td><p id="cos-name">The Ordinary Foundation</p>
-                        <p id="cos-quantity">30ml</p>
-                        <p id="cos-price">Rs. 4,500.00</p>
+                    <td><p class="cos-name">The Ordinary Foundation</p>
+                        <p class="cos-quantity">30ml</p>
+                        <p class="cos-price">Rs. 4,500.00</p>
                         <form>
                             <button class="cos-order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
                         </form>
@@ -208,17 +206,17 @@
                 </tr>
                 <tr>
                     <td><img src="cosmetics-products-img/SIVANNA-Eye-Shadow-Palette.png" alt="Product 17"></td>
-                    <td><p id="cos-name">Sivanna Eyeshadow Palette</p>
-                        <p id="cos-quantity">9 colours</p>
-                        <p id="cos-price">Rs. 1,700.00</p>
+                    <td><p class="cos-name">Sivanna Eyeshadow Palette</p>
+                        <p class="cos-quantity">9 colours</p>
+                        <p class="cos-price">Rs. 1,700.00</p>
                         <form>
                             <button class="cos-order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
                         </form>
                     </td>
                     <td><img src="cosmetics-products-img/mesauda-bronze.png" alt="Product 18"></td>
-                    <td><p id="cos-name">Mesauda Powder</p>
-                        <p id="cos-quantity">Light'n Bronze</p>
-                        <p id="cos-price">Rs. 3,300.00</p>
+                    <td><p class="cos-name">Mesauda Powder</p>
+                        <p class="cos-quantity">Light'n Bronze</p>
+                        <p class="cos-price">Rs. 3,300.00</p>
                         <form>
                             <button class="cos-order-button" type="submit" formaction="cart.html" aria-label="Order button">Add to Cart </button>
                         </form>
@@ -226,7 +224,7 @@
                 </tr>
             </tbody>
         </table>
-    </section>
+    </div>
     <footer class="custom-footer">
         <div class="footer-social">
             <!--social icons linked to the top of the page-->
