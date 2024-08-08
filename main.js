@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function addToCart(event) {
-        const itemElement = event.target.closest('#item');
+        const itemElement = event.target.closest('.item');
         const itemName = itemElement.querySelector('.item-name').textContent;
         const itemPrice = parseFloat(itemElement.querySelector('.item-price').textContent.replace('Rs. ', ''));
         const itemQuantity = parseFloat(itemElement.querySelector('input[type="number"]').value);
