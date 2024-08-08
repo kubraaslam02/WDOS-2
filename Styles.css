@@ -30,20 +30,20 @@ body {
 .nav-links {
     list-style-type: none;
     margin: 0;
-    padding: 0;
     display: flex;
+    font-size: 20px;
+    padding: 14px 20px;
 }
 
 .nav-links li {
     position: relative;
+    padding: 0px 20px;
 }
 
 .nav-links a {
     color: #132A13;
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    padding: 14px 20px;
     display: block;
 }
 
@@ -53,6 +53,7 @@ body {
 
 .navbar .active {
     color: #808F59;
+    font-weight: bold;
 }
 
 .dropdown:hover .dropdown-content {
@@ -118,12 +119,8 @@ body {
     
     .nav-links {
         margin: 0;
-        padding: 0;
-    }
-    
-    .nav-links a {
-        font-size: 15px;
-        padding: 7px 20px;
+        font-size: 10px;
+        padding: 7px 10px;
     }
     
     .dropdown-content {
@@ -187,6 +184,7 @@ body {
     font-size: 80px;
     margin-top: 150px;
     margin-bottom: 30px;
+    font-weight: bolder;
 }
 
 .welcome-greet .font {
@@ -217,7 +215,7 @@ body {
     margin-top: -50px;
 }
 
-.home-ul-list p {
+.home-ul-list h4 {
     text-align: left;
     margin-top: -400px;
     margin-bottom: 100px;
@@ -327,7 +325,7 @@ body {
     background-position: center;
 }
 
-.box p {
+.box h4 {
     font-size: 30px;
     font-style: italic;
     font-weight: bold;
