@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Grocies Supermarket</title>
+  <link rel="icon" href="images/logo.png">
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="style1.css">
 </head>
@@ -44,6 +45,8 @@
     <section class="order-form-container">
       <div class="order-box">
         <h1>Order Details</h1>
+
+        <!--updated order summary in a table-->
         <h2>Your Order Summary</h2>
         <table id="cart">
           <thead>
@@ -54,7 +57,7 @@
             </tr>
           </thead>
           <tbody>
-            <!-- Cart items will be injected here -->
+            <!-- Cart items will be inserted here -->
           </tbody>
           <tfoot>
             <tr>
@@ -64,6 +67,7 @@
           </tfoot>
         </table>
 
+        <!-- Check out Form -->
         <form id="checkoutForm">
           <h2>Personal Information</h2>
           <label for="fname">First Name:</label>
